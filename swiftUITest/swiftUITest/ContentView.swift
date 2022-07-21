@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State var counter = 0
+    @State var isSet = true
     
     var body: some View {
         VStack {
