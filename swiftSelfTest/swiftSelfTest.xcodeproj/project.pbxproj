@@ -11,6 +11,7 @@
 		301948E62887EE8400869CFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301948E52887EE8400869CFB /* ContentView.swift */; };
 		301948E82887EE8600869CFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 301948E72887EE8600869CFB /* Assets.xcassets */; };
 		301948EB2887EE8600869CFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 301948EA2887EE8600869CFB /* Preview Assets.xcassets */; };
+		3034D5AA288A3D2A006D67A4 /* LeeSeoyun.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3034D5A9288A3D2A006D67A4 /* LeeSeoyun.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		301948E52887EE8400869CFB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		301948E72887EE8600869CFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		301948EA2887EE8600869CFB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3034D5A9288A3D2A006D67A4 /* LeeSeoyun.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = LeeSeoyun.otf; path = resource/LeeSeoyun.otf; sourceTree = SOURCE_ROOT; };
+		3034D5AB288A3DBE006D67A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +54,11 @@
 		301948E22887EE8400869CFB /* swiftSelfTest */ = {
 			isa = PBXGroup;
 			children = (
+				3034D5AB288A3DBE006D67A4 /* Info.plist */,
 				301948E32887EE8400869CFB /* swiftSelfTestApp.swift */,
 				301948E52887EE8400869CFB /* ContentView.swift */,
 				301948E72887EE8600869CFB /* Assets.xcassets */,
+				3034D5A9288A3D2A006D67A4 /* LeeSeoyun.otf */,
 				301948E92887EE8600869CFB /* Preview Content */,
 			);
 			path = swiftSelfTest;
@@ -126,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				301948EB2887EE8600869CFB /* Preview Assets.xcassets in Resources */,
+				3034D5AA288A3D2A006D67A4 /* LeeSeoyun.otf in Resources */,
 				301948E82887EE8600869CFB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +276,7 @@
 				DEVELOPMENT_TEAM = PD739GKFH2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = swiftSelfTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +306,7 @@
 				DEVELOPMENT_TEAM = PD739GKFH2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = swiftSelfTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
