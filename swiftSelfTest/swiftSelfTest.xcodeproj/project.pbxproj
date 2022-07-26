@@ -12,6 +12,8 @@
 		301948E82887EE8600869CFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 301948E72887EE8600869CFB /* Assets.xcassets */; };
 		301948EB2887EE8600869CFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 301948EA2887EE8600869CFB /* Preview Assets.xcassets */; };
 		3034D5AA288A3D2A006D67A4 /* LeeSeoyun.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3034D5A9288A3D2A006D67A4 /* LeeSeoyun.otf */; };
+		3034D5AF288E3293006D67A4 /* Memory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3034D5AE288E3293006D67A4 /* Memory.swift */; };
+		3034D5B1288E32A9006D67A4 /* MemoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3034D5B0288E32A9006D67A4 /* MemoryCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		301948EA2887EE8600869CFB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3034D5A9288A3D2A006D67A4 /* LeeSeoyun.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = LeeSeoyun.otf; path = resource/LeeSeoyun.otf; sourceTree = SOURCE_ROOT; };
 		3034D5AB288A3DBE006D67A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3034D5AE288E3293006D67A4 /* Memory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memory.swift; sourceTree = "<group>"; };
+		3034D5B0288E32A9006D67A4 /* MemoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +58,10 @@
 		301948E22887EE8400869CFB /* swiftSelfTest */ = {
 			isa = PBXGroup;
 			children = (
+				3034D5AD288E327F006D67A4 /* View */,
+				3034D5AC288E3273006D67A4 /* Model */,
 				3034D5AB288A3DBE006D67A4 /* Info.plist */,
 				301948E32887EE8400869CFB /* swiftSelfTestApp.swift */,
-				301948E52887EE8400869CFB /* ContentView.swift */,
 				301948E72887EE8600869CFB /* Assets.xcassets */,
 				3034D5A9288A3D2A006D67A4 /* LeeSeoyun.otf */,
 				301948E92887EE8600869CFB /* Preview Content */,
@@ -70,6 +75,23 @@
 				301948EA2887EE8600869CFB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3034D5AC288E3273006D67A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3034D5AE288E3293006D67A4 /* Memory.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3034D5AD288E327F006D67A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				301948E52887EE8400869CFB /* ContentView.swift */,
+				3034D5B0288E32A9006D67A4 /* MemoryCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +165,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3034D5B1288E32A9006D67A4 /* MemoryCell.swift in Sources */,
+				3034D5AF288E3293006D67A4 /* Memory.swift in Sources */,
 				301948E62887EE8400869CFB /* ContentView.swift in Sources */,
 				301948E42887EE8400869CFB /* swiftSelfTestApp.swift in Sources */,
 			);
