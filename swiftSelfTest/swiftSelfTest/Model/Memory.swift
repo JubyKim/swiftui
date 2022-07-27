@@ -9,7 +9,8 @@ import Foundation
 import SwiftUI
 
 
-struct Memory {
+@EnvironmentObject Event 
+struct Event {
     
     var title : String
     var data : Data

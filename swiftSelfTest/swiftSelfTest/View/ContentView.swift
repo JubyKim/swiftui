@@ -6,16 +6,37 @@
 //
 
 import SwiftUI
+import FSCalendar
+
+
+import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("hello")
+        NavigationView {
+            VStack{
+                VStack {
+                    Spacer()
+                    CalendarModuleView()
+                    Spacer()
+                }
+                VStack {
+                    Spacer()
+                    Text("Details")
+                    Spacer()
+                }
+            }.navigationBarTitle(Text("Calendar"), displayMode: .inline)
+                .navigationBarItems(trailing:
+                    NavigationLink(destination: CreateEventView().environmentObject(Event())) {
+                        Image(systemName: "plus").imageScale(.large)
+                    }.buttonStyle(DefaultButtonStyle())
+            )
+        }
     }
 }
 
-
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        CalendarView()
     }
 }
